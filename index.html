@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plant-Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+</head>
+
+<body>
+    <header class=" bg-success">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="rounded-circle" src="assest/img/logo.webp" alt=""
+                            width="60px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="product.html">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero-section" class="">
+        <!-- Banner Section -->
+        <div id="bannerSlider" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="assest/img/banner-2.jpg" class="d-block w-100" alt="Banner 1">
+
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                        <h1>Welcome to Our Website</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="assest/img/banner-3.jpg" class="d-block w-100" alt="Banner 2">
+
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                        <h1>Plant Business</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                        <a href="#" class="btn btn-success">Our Services</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="assest/img/banner-1.webp" class="d-block w-100" alt="Banner 3">
+
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                        <h1>Creative plants</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#" class="btn btn-warning">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#bannerSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#bannerSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+
+        <!-- Bootstrap 5 JS Bundle -->
+
+    </section>
+
+    <section id="find-plant" class="py-5">
+        <div class="container">
+
+            <!-- Heading -->
+
+            <div class="row justify-content-center mb-5">
+
+                <div class="col-lg-8 text-center">
+
+                    <span class="badge bg-success px-3 py-2 mb-3">
+                        Plant Recommendation
+                    </span>
+
+                    <h2 class="display-5 fw-bold">
+                        Find Your Perfect Plant
+                    </h2>
+
+                    <p class="text-secondary">
+                        Answer a few simple questions and discover the ideal plant
+                        for your home, office, or garden.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="card border-0 shadow-lg rounded-4">
+
+                        <div class="card-body p-5">
+
+                            <form>
+
+                                <!-- Question 1 -->
+
+                                <div class="mb-4">
+
+                                    <label class="form-label fw-semibold">
+
+                                        <i class="bi bi-sun-fill text-warning me-2"></i>
+
+                                        How much sunlight does your space get?
+
+                                    </label>
+
+                                    <select class="form-select form-select-lg">
+
+                                        <option selected="" disabled="">Select Sunlight</option>
+
+                                        <option>Low Light</option>
+
+                                        <option>Medium Light</option>
+
+                                        <option>Direct Sunlight</option>
+
+                                    </select>
+
+                                </div>
+
+                                <!-- Question 2 -->
+
+                                <div class="mb-4">
+
+                                    <label class="form-label fw-semibold">
+
+                                        <i class="bi bi-heart-fill text-danger me-2"></i>
+
+                                        How much care can you provide?
+
+                                    </label>
+
+                                    <select class="form-select form-select-lg">
+
+                                        <option selected="" disabled="">Select Care Level</option>
+
+                                        <option>Low Maintenance</option>
+
+                                        <option>Moderate Care</option>
+
+                                        <option>High Maintenance</option>
+
+                                    </select>
+
+                                </div>
+
+                                <!-- Question 3 -->
+
+                                <div class="mb-4">
+
+                                    <label class="form-label fw-semibold">
+
+                                        <i class="bi bi-house-heart-fill text-success me-2"></i>
+
+                                        Do you have pets?
+
+                                    </label>
+
+                                    <select class="form-select form-select-lg">
+
+                                        <option selected="" disabled="">Select Option</option>
+
+                                        <option>Yes</option>
+
+                                        <option>No</option>
+
+                                    </select>
+
+                                </div>
+
+                                <div class="d-grid">
+
+                                    <button class="btn btn-success btn-lg rounded-pill">
+
+                                        <i class="bi bi-search me-2"></i>
+
+                                        Find My Plant
+
+                                    </button>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <section id="plant-photo" class="py-5 container">
+        <div class="text-center pb-4">
+            <h1>Plant photo collage</h1>
+        </div>
+        <div class="row gy-4">
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/gallary-1.jpg" width="100%" height="300px">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/gallary-2.webp" width="100%" height="300px">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/gallary-3.jpg" width="100%" height="300px">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/gallary-4.webp" width="100%" height="300px">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/gallary-5.jpg" width="100%" height="300px">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/gallary-6.webp" width="100%" height="300px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular-houseplant" class="container py-5">
+        <div class="text-center pb-4">
+            <h1>Plant photo collage</h1>
+            <p>Our top picks for beautiful and easy-to-care-for plants.</p>
+        </div>
+        <div class="row gy-4">
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow rounded-4">
+                    <img src="assest/img/hp-1.webp" width="100%" height="400px">
+                    <div class="text-center p-3">
+                        <p class="fs-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow rounded-4">
+                    <img src="assest/img/hp-2.webp" width="100%" height="400px">
+                    <div class="text-center p-3">
+                        <p class="fs-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow rounded-4">
+                    <img src="assest/img/hp-3.webp" width="100%" height="400px">
+                    <div class="text-center p-3">
+                        <p class="fs-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curated-section" class="container py-5">
+        <div class="text-center pb-4">
+            <h1>Curated Collections</h1>
+            <p>Explore our themed plant sets for your home and office.</p>
+        </div>
+        <div class="row gy-4">
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/cc-1.jpg" width="100%" height="400px">
+                    <div class="text-center p-3">
+                        <p class="fs-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/cc-2.webp" width="100%" height="400px">
+                    <div class="text-center p-3">
+                        <p class="fs-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="assest/img/cc-3.webp" width="100%" height="400px">
+                    <div class="text-center p-3">
+                        <p class="fs-2">Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plant-care-guid" class="container py-5">
+        <div class="text-center pb-4">
+            <h1>Plant care guids</h1>
+            <p>Explore our themed plant sets for your home and office.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="">
+                    <iframe class="rounded-4" width="100%" height="400px"
+                        src="https://www.youtube.com/embed/SXbZ4mq8FKU?si=0l36rQLgeBECsweD" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="">
+                    <iframe class="rounded-4" width="100%" height="400px"
+                        src="https://www.youtube.com/embed/pimMVV6kknQ?si=H9uowh851yi3FHR4" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-blooming" class="container py-5">
+        <h1>About Blooming oasis</h1>
+        <div class="bg-success-subtle rounded-4">
+            <p class="p-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatem recusandae quam
+                soluta, non
+                ut laboriosam eveniet! Voluptate voluptas sapiente ea illum blanditiis autem optio modi? Placeat
+                delectus, dolor quibusdam iure dolorum eius quidem neque, veritatis inventore voluptas ex omnis!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti harum vitae quibusdam est amet,
+                debitis, impedit, hic illo minima cumque facilis. Suscipit adipisci fugit a dolorem reiciendis nam
+                facilis debitis! Ab, at magni ipsam dolorum debitis ducimus tempore obcaecati velit?</p>
+        </div>
+    </section>
+
+    <section id="time" class="text-center">
+        <p class="fs-2">time</p>
+    </section>
+
+    <footer class="bg-dark text-light pt-5 pb-4 mt-5">
+        <div class="container">
+            <div class="row gy-5">
+
+                <!-- Column 1: Brand & About -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="fw-bold text-white mb-3"><i class="bi bi-hexagon-fill text-success me-2"></i>BrandLogo
+                    </h5>
+                    <p class="text-secondary small mb-4">We provide high-quality digital solutions to help businesses
+                        grow
+                        and scale effectively. Innovate with us and reach new heights.</p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="btn btn-sm btn-outline-success rounded-circle"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-success rounded-circle"><i
+                                class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-success rounded-circle"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-success rounded-circle"><i
+                                class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Quick Links</h6>
+                    <ul class="list-unstyled small text-secondary d-flex flex-column gap-2">
+                        <li><a href="#" class="text-secondary text-decoration-none hover-white transition-all">Home</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-secondary text-decoration-none hover-white transition-all">Products</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none hover-white transition-all">About
+                                Us</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none hover-white transition-all">Contact
+                                Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Contact Info</h6>
+                    <ul class="list-unstyled small text-secondary d-flex flex-column gap-3">
+                        <li class="d-flex gap-3 align-items-start">
+                            <i class="bi bi-geo-alt fs-5 text-success"></i>
+                            <span>123 Innovation Ave, Tech City,<br>New York 10001</span>
+                        </li>
+                        <li class="d-flex gap-3 align-items-center">
+                            <i class="bi bi-envelope fs-5 text-success"></i>
+                            <span>support@brandlogo.com</span>
+                        </li>
+                        <li class="d-flex gap-3 align-items-center">
+                            <i class="bi bi-telephone fs-5 text-success"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Newsletter -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Newsletter</h6>
+                    <p class="text-secondary small mb-3">Subscribe to receive updates, access to exclusive deals, and
+                        more.
+                    </p>
+                    <form class="d-flex gap-2">
+                        <input type="email" class="form-control bg-dark text-light border-secondary"
+                            placeholder="Email address" required>
+                        <button class="btn btn-success" type="submit">Subscribe</button>
+                    </form>
+                    <div class="form-text text-secondary mt-2" style="font-size: 0.7rem;">We respect your privacy. No
+                        spam.
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Simple Footer Copyright -->
+            <hr class="border-secondary mt-5 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start small text-secondary mb-3 mb-md-0">
+                    &copy; 2026 BrandLogo. All rights reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end small">
+                    <a href="#" class="text-secondary text-decoration-none me-3 hover-white">Terms of Service</a>
+                    <a href="#" class="text-secondary text-decoration-none hover-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- js -->
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
